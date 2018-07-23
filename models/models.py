@@ -1,35 +1,35 @@
 # The schema/templates for the endpoints implemented
-model_json =  {
-	
-	"patients" : {
-		"data": [],
-		"links": {
-			"self": "string",
-			"next": "string"
-		}
-	},
+model_json = {
 
-	"patient" : {
-		"attributes": {
-			"email": "string",
-			"first_name": "string",
-			"last_name": "string",
-			"birthdate": "string",
-			"sex": "string"
-		}
-	},
+    "patients": {
+        "data": [],
+        "links": {
+            "self": "string",
+            "next": "string"
+        }
+    },
 
-	"http-error" : {
-		"errors": [
-			{
-				"id": "string",
-				"status": "string",
-				"title": "string",
-				"detail": "string",
-				"code": "string",
-				"source": {}
-			}
-		]
-	}
+    "patient": {
+        "attributes": {
+            "email": "string",
+            "first_name": "string",
+            "last_name": "string",
+            "birthdate": "string",
+            "sex": "string"
+        }
+    },
+
+    "http-error": {
+        "errors": [
+            {
+                "id": "string",
+                "status": "string",
+                "title": "string",
+                "detail": "string",
+                "code": "string",
+                "source": {}
+            }
+        ]
+    }
 
 }
